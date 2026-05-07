@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salhiram Balthazar | Senior Full Stack Data Engineer</title>
+    <title>Salhiram Balthazar | Senior Full Stack Platform Engineer</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23050510%22/><text y=%22.9em%22 font-size=%2280%22 font-family=%22Orbitron%22 fill=%22%2300f3ff%22>SB</text></svg>">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&family=Roboto+Mono:wght@300&display=swap');
@@ -84,13 +84,16 @@
         .job-company { color: var(--primary-cyan); font-weight: bold; }
         .job-date { font-family: 'Roboto Mono', monospace; font-size: 0.9rem; color: var(--text-dim); }
         .job-desc { color: var(--text-dim); font-size: 0.95rem; }
-        .job-desc ul { list-style-type: none; }
-        .job-desc li { position: relative; padding-left: 20px; margin-bottom: 8px; }
-        .job-desc li::before { content: '>'; position: absolute; left: 0; color: var(--primary-purple); font-family: monospace; }
         .tech-tag { color: var(--primary-cyan); font-family: 'Roboto Mono', monospace; font-size: 0.85rem; margin-top: 10px; display: block; }
         .project-card { background: var(--card-bg); border: 1px solid rgba(255, 255, 255, 0.05); padding: 30px; margin-bottom: 20px; border-radius: 5px; }
         footer { border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 50px 0; text-align: center; background: #020205; }
-        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .timeline::after { left: 10px; } .timeline-item { padding-left: 35px; } .timeline-item::before { left: 1px; } }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .timeline::after { left: 10px; }
+            .timeline-item { padding-left: 35px; }
+            .timeline-item::before { left: 1px; }
+            .nav-links a { margin-left: 12px; font-size: 0.8rem; }
+        }
     </style>
 </head>
 <body>
@@ -111,9 +114,10 @@
     <section class="hero">
         <div class="container">
             <h1 class="glow-text">Salhiram Balthazar</h1>
-            <h2 class="gradient-text">Senior Full Stack Data Engineer</h2>
-            <p>Senior Data Engineer with 10+ years of experience designing secure backend systems, cloud-native applications, and AI-driven enterprise integrations. Adept at bridging technical depth with business impact.</p>
+            <h2 class="gradient-text">Senior Full Stack Platform Engineer</h2>
+            <p>I build secure backend systems, cloud-native platforms, enterprise integrations, and data-driven applications across AI, healthcare, and federal environments.</p>
             <a href="#contact" class="btn-neon">CONTACT ME</a>
+            <a href="https://github.com/GAB-100" target="_blank" class="btn-neon">GITHUB</a>
         </div>
     </section>
 
@@ -122,19 +126,39 @@
         <div class="skills-grid">
             <div class="skill-card">
                 <h3>Languages</h3>
-                <div class="skill-tags"><span>Java</span><span>TypeScript</span><span>Node.js</span><span>C#</span><span>SQL</span><span>Python</span></div>
+                <div class="skill-tags">
+                    <span>Java</span><span>TypeScript</span><span>JavaScript</span><span>Node.js</span><span>Python</span><span>C#</span><span>SQL</span>
+                </div>
             </div>
             <div class="skill-card">
-                <h3>Platforms & DevOps</h3>
-                <div class="skill-tags"><span>AWS</span><span>Microsoft Graph API</span><span>SharePoint Online</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span></div>
+                <h3>Backend & Platform</h3>
+                <div class="skill-tags">
+                    <span>REST APIs</span><span>API Design</span><span>Microservices</span><span>Data Pipelines</span><span>Enterprise Integrations</span><span>RBAC</span>
+                </div>
             </div>
             <div class="skill-card">
-                <h3>Testing & Security</h3>
-                <div class="skill-tags"><span>Jenkins</span><span>Jest</span><span>Fortify SCA</span><span>CodeQL</span><span>Secure SDLC</span><span>OWASP Top 10</span></div>
+                <h3>Cloud & DevOps</h3>
+                <div class="skill-tags">
+                    <span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>CI/CD</span><span>GitHub Actions</span>
+                </div>
             </div>
             <div class="skill-card">
-                <h3>Databases & Compliance</h3>
-                <div class="skill-tags"><span>PostgreSQL</span><span>SQL Server</span><span>HIPAA</span><span>Federal ATO</span><span>Audit Logging</span></div>
+                <h3>Security & Compliance</h3>
+                <div class="skill-tags">
+                    <span>Secure SDLC</span><span>Fortify SCA</span><span>CodeQL</span><span>OWASP Top 10</span><span>HIPAA</span><span>Federal ATO</span><span>POA&M</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Data & Integrations</h3>
+                <div class="skill-tags">
+                    <span>PostgreSQL</span><span>SQL Server</span><span>Microsoft Graph API</span><span>SharePoint Online</span><span>OData</span><span>SFTP</span><span>ShareFile</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Frontend & Testing</h3>
+                <div class="skill-tags">
+                    <span>React</span><span>TypeScript Frontend</span><span>Jest</span><span>Unit Testing</span><span>Integration Testing</span><span>Web/Mobile APIs</span>
+                </div>
             </div>
         </div>
     </section>
@@ -144,81 +168,57 @@
         <div class="timeline">
             <div class="timeline-item">
                 <div class="job-header">
-                    <div><div class="job-title">Senior AI / Full Stack Data & Machine Learning Engineer</div><div class="job-company">VibesMeet</div></div>
+                    <div>
+                        <div class="job-title">Senior Full Stack Platform & Data Engineer</div>
+                        <div class="job-company">VibesMeet</div>
+                    </div>
                     <div class="job-date">Jul 2023 - Present</div>
                 </div>
                 <div class="job-desc">
-                    <ul>
-                        <li>Designed scalable backend APIs and real‑time data pipelines with Node.js, TypeScript, and PostgreSQL to support analytics and AI‑driven personalization.</li>
-                        <li>Integrated Microsoft Graph API with SharePoint, implementing secure ingestion, URL resolution, and canonicalization logic.</li>
-                        <li>Architected cloud‑native solutions on AWS/GCP with Dockerized services and CI/CD pipelines for reliable deployments.</li>
-                        <li>Modernized Jest + TypeScript test suite, achieving near‑complete coverage and enforcing secure coding practices.</li>
-                        <li>Partnered with product/design teams to translate requirements into technical solutions while debugging complex API scenarios.</li>
-                        <li>Documented architecture, ingestion behaviors, and testing strategies for long‑term maintainability.</li>
-                    </ul>
-                    <span class="tech-tag">Technologies: TypeScript, Node.js, Microsoft Graph API, SharePoint Online, PostgreSQL, AWS, GCP, Docker, CI/CD, Jest, GitHub</span>
+                    <p>I work on VibesMeet’s core platform across backend services, APIs, data pipelines, PostgreSQL workflows, cloud infrastructure, Microsoft Graph and SharePoint integrations, and web/mobile platform features. I helped support metadata extraction across 500+ SharePoint sites, improved ingestion reliability by 25%, and raised TypeScript/Jest test coverage to 95%.</p>
+                    <span class="tech-tag">TypeScript, Node.js, PostgreSQL, Microsoft Graph API, SharePoint Online, AWS, GCP, Docker, REST APIs, Jest, React</span>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="job-header">
-                    <div><div class="job-title">Senior Software Engineer / Platform Engineer (HealthTech)</div><div class="job-company">US Health Center (USH)</div></div>
+                    <div>
+                        <div class="job-title">Senior Software Engineer / Platform Engineer</div>
+                        <div class="job-company">US Health Center via NYConsultant.us</div>
+                    </div>
                     <div class="job-date">Mar 2021 - Apr 2023</div>
                 </div>
                 <div class="job-desc">
-                    <ul>
-                        <li>Owned backend and data-layer work across UMS, PAS, DMS Automations, and eCareV3DB.</li>
-                        <li>Debugged and stabilized legacy ASP.NET MVC / Web API codebase with Identity conflicts.</li>
-                        <li>Wrote and validated SQL Server queries, views, and stored procedures for eligibility and reporting.</li>
-                        <li>Supported automated report pipelines delivering CSV/Excel files to ShareFile and SFTP endpoints.</li>
-                        <li>Ensured HIPAA-compliant data handling, audit logging, and role-based access controls.</li>
-                    </ul>
-                    <span class="tech-tag">Technologies: C#, ASP.NET MVC/Web API, SQL Server, Stored Procedures, SSMS, Rackspace, SFTP, GitHub</span>
+                    <p>I owned backend and data-layer engineering across healthcare systems, including ASP.NET MVC/Web API applications, SQL Server workflows, stored procedures, reporting logic, Identity access issues, and automated CSV/Excel delivery through ShareFile and SFTP. I also supported HIPAA-aligned data handling, audit logging, and role-based access controls.</p>
+                    <span class="tech-tag">C#, ASP.NET MVC, ASP.NET Web API, SQL Server, Stored Procedures, SSMS, SFTP, ShareFile, HIPAA</span>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="job-header">
-                    <div><div class="job-title">Brand Marketing Specialist</div><div class="job-company">Meta Wearables Contractor - 2020 Companies</div></div>
-                    <div class="job-date">May 2020 - Dec 2020</div>
+                    <div>
+                        <div class="job-title">Secure Code Review Engineer, Federal Programs</div>
+                        <div class="job-company">Veterans Affairs / Veterans Engineering via NYConsultant.us</div>
+                    </div>
+                    <div class="job-date">Jan 2016 - Dec 2020</div>
                 </div>
                 <div class="job-desc">
-                    <ul>
-                        <li>Spearheaded brand awareness and product adoption for Meta’s AI-powered Ray-Ban glasses and Meta Quest.</li>
-                        <li>Delivered technical training on AI/VR features to Best Buy sales teams.</li>
-                        <li>Analyzed sales data and KPIs to optimize product adoption strategies.</li>
-                        <li>Collaborated on strategic marketing plans to achieve ambitious product sales goals.</li>
-                    </ul>
+                    <p>I performed static and manual secure code reviews across Java, C#, TypeScript, Python, Docker, Kubernetes, Terraform, and cloud-adjacent infrastructure code. I validated Fortify SCA and CodeQL findings, supported remediation of 200+ critical vulnerabilities, and contributed to 10+ federal ATO approvals.</p>
+                    <span class="tech-tag">Fortify SCA, CodeQL, OWASP Top 10, Java, C#, TypeScript, Python, Docker, Kubernetes, Terraform, ServiceNow</span>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="job-header">
-                    <div><div class="job-title">Secure Code Review Engineer (Federal Programs)</div><div class="job-company">Veterans Affairs (VA) / Veterans Engineering (via NYConsultant.us)</div></div>
-                    <div class="job-date">Jan 2016 - Feb 2020</div>
+                    <div>
+                        <div class="job-title">Full Stack Developer / Technical Consultant</div>
+                        <div class="job-company">Independent Consulting</div>
+                    </div>
+                    <div class="job-date">Aug 2010 - Dec 2015</div>
                 </div>
                 <div class="job-desc">
-                    <ul>
-                        <li>Served as Software Assurance gatekeeper for VA applications, validating secure code scan submissions.</li>
-                        <li>Performed SAST reviews using Fortify, validating rulepacks and scan artifacts.</li>
-                        <li>Conducted secure code reviews across Java, C#, TypeScript, Python, Docker, Terraform, Kubernetes.</li>
-                        <li>Enforced secure SDLC practices and produced audit-quality documentation supporting ATO and POA&M requirements.</li>
-                    </ul>
-                    <span class="tech-tag">Technologies: Fortify SCA, CodeQL, OWASP Top 10, Docker, Kubernetes, Terraform, GitHub Enterprise, ServiceNow</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="job-header">
-                    <div><div class="job-title">Marketing Manager</div><div class="job-company">KZPROMO INC</div></div>
-                    <div class="job-date">Mar 2012 - Oct 2015</div>
-                </div>
-                <div class="job-desc">
-                    <ul>
-                        <li>Oversaw daily operations of technical and marketing departments to define market presence.</li>
-                        <li>Designed digital marketing campaigns and copywriting to establish brand value and tone.</li>
-                        <li>Conducted extensive market research to define brand elements and competitive positioning.</li>
-                    </ul>
+                    <p>I delivered full stack web development, technical integrations, landing pages, automation workflows, reporting dashboards, and digital platform support for small businesses, agencies, and founder-led projects.</p>
+                    <span class="tech-tag">JavaScript, HTML, CSS, SQL, CMS Platforms, API Integrations, Analytics Dashboards, Web Hosting, Git</span>
                 </div>
             </div>
         </div>
@@ -227,16 +227,14 @@
     <section id="projects" class="container section-padding">
         <h2 class="glow-text">Key Projects</h2>
         <div class="project-card">
-            <h3>AI/ML Integrations (VibesMeet)</h3>
-            <p>Built ingestion pipelines using Microsoft Graph API and SharePoint Online, enabling metadata extraction across 500+ sites. Improved ingestion reliability by 25% and raised test coverage to 95%.</p>
+            <h3>Enterprise Platform & Data Integration Systems</h3>
+            <p>Built and supported backend, platform, and data integration workflows across AI, healthcare, and cloud environments. Work included REST APIs, PostgreSQL and SQL Server data models, Microsoft Graph and SharePoint integrations, automated reporting pipelines, metadata ingestion, and web/mobile platform support.</p>
+            <span class="tech-tag">TypeScript, Node.js, C#, Python, PostgreSQL, SQL Server, Microsoft Graph API, SharePoint Online, REST APIs, Jest, AWS, GCP, Docker, React</span>
         </div>
         <div class="project-card">
-            <h3>Secure Code Review (VA Federal Programs)</h3>
-            <p>Conducted static and manual secure code reviews across multiple languages. Remediated 200+ critical vulnerabilities, validated scans, and supported 10+ ATO approvals.</p>
-        </div>
-        <div class="project-card">
-            <h3>Core Platform Build‑Out (VibesMeet)</h3>
-            <p>Designed VibesMeet’s core architecture, integrating backend services and data pipelines for real‑time engagement. Optimized PostgreSQL pipelines, reducing latency across the system.</p>
+            <h3>Secure Cloud & Compliance Engineering</h3>
+            <p>Performed secure software engineering and application security work across federal and healthcare systems. Reviewed OWASP Top 10 risks, validated Fortify SCA and CodeQL findings, remediated 200+ critical vulnerabilities, and supported 10+ federal ATO approvals.</p>
+            <span class="tech-tag">Java, C#, TypeScript, Python, Fortify SCA, CodeQL, OWASP Top 10, Docker, Kubernetes, Terraform, SQL Server, HIPAA, Secure SDLC</span>
         </div>
     </section>
 
@@ -245,19 +243,17 @@
         <div class="skills-grid">
             <div class="skill-card">
                 <h3>Education</h3>
-                <p><strong>City University of New York - City College</strong></p>
+                <p><strong>City University of New York, City College</strong></p>
                 <p>Bachelor of Science in Computer Science</p>
                 <p class="job-date">2001 - 2007</p>
             </div>
             <div class="skill-card">
                 <h3>Certifications</h3>
-                <p>• AI Fluent Tech Professional</p>
-                <p>• JavaScript Fundamentals v2.0</p>
-            </div>
-            <div class="skill-card">
-                <h3>Clearance</h3>
-                <p><strong>Public Trust</strong></p>
-                <p>From New York Public Interest Research Group (NYPIRG)</p>
+                <p><strong>AI Fluent Tech Professional</strong></p>
+                <p>Calyptus | Issued Mar 2026 | Expires Mar 2036</p>
+                <br>
+                <p><strong>JavaScript Fundamentals v2.0</strong></p>
+                <p>Carberi | Issued Feb 2026</p>
             </div>
         </div>
     </section>
@@ -270,7 +266,8 @@
                 <p>Tel: 631-238-1233 | balthazarsalhiram@gmail.com | Brooklyn, NY</p>
                 <div style="margin-top: 20px;">
                     <a href="https://www.linkedin.com/in/herudagod/" target="_blank">LinkedIn</a> | 
-                    <a href="https://github.com/GAB-100" target="_blank">Github</a>
+                    <a href="https://github.com/GAB-100" target="_blank">GitHub</a> |
+                    <a href="https://salhirambalthazar.netlify.app/" target="_blank">Portfolio</a>
                 </div>
             </div>
             <p style="margin-top:40px; color:var(--text-dim); font-size:0.8rem;">© 2026 SALHIRAM BALTHAZAR | SYSTEM STATUS: ACTIVE</p>
@@ -283,20 +280,31 @@
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
         let particlesArray;
+
         class Particle {
             constructor(x, y, directionX, directionY, size, color) {
-                this.x = x; this.y = y; this.directionX = directionX; this.directionY = directionY; this.size = size; this.color = color;
+                this.x = x;
+                this.y = y;
+                this.directionX = directionX;
+                this.directionY = directionY;
+                this.size = size;
+                this.color = color;
             }
             draw() {
-                ctx.beginPath(); ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false); ctx.fillStyle = this.color; ctx.fill();
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
+                ctx.fillStyle = this.color;
+                ctx.fill();
             }
             update() {
                 if (this.x > canvas.width || this.x < 0) this.directionX = -this.directionX;
                 if (this.y > canvas.height || this.y < 0) this.directionY = -this.directionY;
-                this.x += this.directionX; this.y += this.directionY;
+                this.x += this.directionX;
+                this.y += this.directionY;
                 this.draw();
             }
         }
+
         function init() {
             particlesArray = [];
             let numberOfParticles = (canvas.height * canvas.width) / 9000;
@@ -309,26 +317,41 @@
                 particlesArray.push(new Particle(x, y, directionX, directionY, size, '#00f3ff'));
             }
         }
+
         function animate() {
             requestAnimationFrame(animate);
             ctx.clearRect(0, 0, innerWidth, innerHeight);
-            for (let i = 0; i < particlesArray.length; i++) { particlesArray[i].update(); }
+            for (let i = 0; i < particlesArray.length; i++) {
+                particlesArray[i].update();
+            }
             connect();
         }
+
         function connect() {
             for (let a = 0; a < particlesArray.length; a++) {
                 for (let b = a; b < particlesArray.length; b++) {
                     let distance = ((particlesArray[a].x - particlesArray[b].x) ** 2) + ((particlesArray[a].y - particlesArray[b].y) ** 2);
-                    if (distance < (canvas.width/7) * (canvas.height/7)) {
+                    if (distance < (canvas.width / 7) * (canvas.height / 7)) {
                         let opacityValue = 1 - (distance / 20000);
                         ctx.strokeStyle = `rgba(0, 243, 255, ${opacityValue})`;
-                        ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(particlesArray[a].x, particlesArray[a].y); ctx.lineTo(particlesArray[b].x, particlesArray[b].y); ctx.stroke();
+                        ctx.lineWidth = 1;
+                        ctx.beginPath();
+                        ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
+                        ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
+                        ctx.stroke();
                     }
                 }
             }
         }
-        window.addEventListener('resize', () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; init(); });
-        init(); animate();
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            init();
+        });
+
+        init();
+        animate();
     </script>
 </body>
 </html>
